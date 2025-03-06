@@ -244,21 +244,22 @@
         <button class="all-btn" onclick="showPriceComparison()">Price Comparison</button>
     </div>
 
-    <!-- Raeanne’s Main Workouts -->
+    <!-- Raeanne’s Core Workouts -->
     <div class="workout-popup" id="Monday">
         <span class="close-btn" onclick="closePopup('Monday')">X</span>
-        <h2>Monday: Chest & Triceps</h2>
-        <h3>Warmup (5-10 min)</h3>
+        <h2>Monday: Cycle + HIIT</h2>
+        <h3>Cycle (5:30-6:15)</h3>
         <ul>
-            <li>Jumping Jacks: 3x30 sec</li>
+            <li>45 min Spin Class</li>
         </ul>
-        <h3>Workout (45 min)</h3>
+        <h3>HIIT Group (6:30-7:15)</h3>
         <ul>
-            <li>DB Incline Press: 20 lbs, 3x12</li>
-            <li>DB Floor Flys: 15 lbs, 3x10</li>
-            <li>Overhead DB Tricep Ext: 20 lbs, 3x10</li>
-            <li>DB Close Grip Press: 25 lbs, 3x11</li>
-            <li>DB Tricep Dips (on bench): 15 lbs, 3x12</li>
+            <li>KB Swings: 20 lbs, 3x12</li>
+            <li>DB Thrusters: 15 lbs each, 3x10</li>
+            <li>Jump Squats: Bodyweight, 3x12</li>
+            <li>Plank Rows: 15 lbs each, 3x10</li>
+            <li>DB Shoulder Press: 15 lbs each, 3x10</li>
+            <li>Russian Twists: 10 lbs, 3x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Sunday')">◄ Back</button>
@@ -268,18 +269,23 @@
     </div>
     <div class="workout-popup" id="Tuesday">
         <span class="close-btn" onclick="closePopup('Tuesday')">X</span>
-        <h2>Tuesday: Back & Biceps</h2>
+        <h2>Tuesday: Full Body Strength + StairMaster</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Arm Swings: 2x20</li>
+            <li>Jumping Jacks: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Renegade Rows: 20 lbs, 3x10</li>
-            <li>DB Reverse Flys: 12 lbs, 3x12</li>
-            <li>DB Concentration Curls: 15 lbs, 3x10</li>
-            <li>DB Single Arm Pulls: 25 lbs, 3x12</li>
-            <li>DB Zottman Curls: 12 lbs, 3x8</li>
+            <li>Goblet Squats (KB): 25 lbs, 3x12</li>
+            <li>DB Romanian Deadlifts: 20 lbs each, 3x10</li>
+            <li>DB Shoulder Press: 15 lbs each, 3x10</li>
+            <li>KB Swings: 20 lbs, 3x12</li>
+            <li>DB Bent-Over Rows: 20 lbs each, 3x10</li>
+            <li>Plank Rows: 15 lbs each, 3x10</li>
+        </ul>
+        <h3>Finisher</h3>
+        <ul>
+            <li>30 min StairMaster (mix speed & steps)</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Monday')">◄ Back</button>
@@ -289,17 +295,19 @@
     </div>
     <div class="workout-popup" id="Wednesday">
         <span class="close-btn" onclick="closePopup('Wednesday')">X</span>
-        <h2>Wednesday: Legs Day 1</h2>
-        <h3>Warmup (5-10 bolsillo min)</h3>
+        <h2>Wednesday: Cycle + HIIT</h2>
+        <h3>Cycle (5:30-6:15)</h3>
         <ul>
-            <li>High Knees: 3x30 sec</li>
+            <li>45 min Spin Class</li>
         </ul>
-        <h3>Workout (45 min)</h3>
+        <h3>HIIT Group (6:30-7:15)</h3>
         <ul>
-            <li>DB Reverse Lunges: 20 lbs each, 3x10</li>
-            <li>DB Sumo Deadlifts: 30 lbs, 3x12</li>
-            <li>DB Side Step-Ups: 15 lbs each, 3x10</li>
-            <li>DB Bulgarian Split Squats: 20 lbs each, 3x8</li>
+            <li>KB Snatch: 15 lbs, 3x10 (alternate arms)</li>
+            <li>DB Chest Press: 20 lbs each, 3x10</li>
+            <li>Jump Lunges: Bodyweight, 3x12</li>
+            <li>KB Deadlifts: 25 lbs, 3x10</li>
+            <li>DB Reverse Flys: 10 lbs each, 3x12</li>
+            <li>Plank to Push-Ups: Bodyweight, 3x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Tuesday')">◄ Back</button>
@@ -309,18 +317,23 @@
     </div>
     <div class="workout-popup" id="Thursday">
         <span class="close-btn" onclick="closePopup('Thursday')">X</span>
-        <h2>Thursday: Shoulders</h2>
+        <h2>Thursday: Full Body HIIT + StairMaster</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Shoulder Rolls: 2x15</li>
+            <li>Arm Swings: 2x20</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Military Press: 15 lbs, 3x10</li>
-            <li>DB Rear Delt Raises: 10 lbs, 3x12</li>
-            <li>DB Lateral Raises: 10 lbs, 3x10</li>
-            <li>DB Face Pulls (w/ resistance band): 3x12</li>
-            <li>DB Shrugs: 25 lbs, 3x15</li>
+            <li>KB Deadlifts: 25 lbs, 3x10</li>
+            <li>DB Thrusters: 15 lbs each, 3x10</li>
+            <li>KB Snatch: 15 lbs, 3x10 (alternate arms)</li>
+            <li>Jump Squats: 10 lbs, 3x12</li>
+            <li>Russian Twists: 10 lbs, 3x12</li>
+            <li>Plank to Push-Ups: Bodyweight, 3x10</li>
+        </ul>
+        <h3>Finisher</h3>
+        <ul>
+            <li>30 min StairMaster (mix speed & steps)</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Wednesday')">◄ Back</button>
@@ -330,17 +343,19 @@
     </div>
     <div class="workout-popup" id="Friday">
         <span class="close-btn" onclick="closePopup('Friday')">X</span>
-        <h2>Friday: Legs Day 2</h2>
+        <h2>Friday: Lower Body Strength</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Walking Lunges: 2x10</li>
+            <li>High Knees: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Hip Thrusts: 30 lbs, 3x12</li>
-            <li>DB Romanian Deadlifts: 25 lbs each, 3x10</li>
-            <li>DB Goblet Squats: 25 lbs, 3x10</li>
-            <li>DB Calf Raises: 20 lbs each, 3x15</li>
+            <li>Bulgarian Split Squats: 20 lbs each, 3x10</li>
+            <li>KB Sumo Deadlifts: 30 lbs, 3x12</li>
+            <li>DB Step-Ups: 15 lbs each, 3x10</li>
+            <li>DB Hip Thrusts: 25 lbs, 3x12</li>
+            <li>KB Goblet Cossack Squat: 20 lbs, 3x10</li>
+            <li>Jump Lunges: Bodyweight, 3x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Thursday')">◄ Back</button>
@@ -350,17 +365,23 @@
     </div>
     <div class="workout-popup" id="Saturday">
         <span class="close-btn" onclick="closePopup('Saturday')">X</span>
-        <h2>Saturday: Full Body Mix</h2>
+        <h2>Saturday: Full Body Circuit + StairMaster</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Jump Rope (or mimic): 3x1 min</li>
+            <li>Jump Rope: 3x1 min</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Thrusters: 20 lbs, 3x10</li>
-            <li>DB Bent Over Rows: 25 lbs, 3x12</li>
-            <li>DB Walking Lunges: 15 lbs each, 3x10</li>
-            <li>DB Arnold Press: 12 lbs, 3x10</li>
+            <li>KB Clean & Press: 20 lbs, 3x10</li>
+            <li>DB Lateral Lunges: 15 lbs each, 3x12</li>
+            <li>DB Chest Press: 20 lbs each, 3x10</li>
+            <li>KB Turkish Get-Ups: 15 lbs, 3x8</li>
+            <li>DB Hanging Knee Raises: 10 lbs, 3x12</li>
+            <li>KB Plank Drags: 15 lbs, 3x10</li>
+        </ul>
+        <h3>Finisher</h3>
+        <ul>
+            <li>30 min StairMaster (3 min fast, 2 min slow)</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Friday')">◄ Back</button>
@@ -370,17 +391,18 @@
     </div>
     <div class="workout-popup" id="Sunday">
         <span class="close-btn" onclick="closePopup('Sunday')">X</span>
-        <h2>Sunday: Core & Recovery</h2>
-        <h3>Warmup (5-10 min)</h3>
+        <h2>Sunday: Active Recovery</h2>
+        <h3>Cardio (30 min)</h3>
         <ul>
-            <li>Plank Hold: 3x30 sec</li>
+            <li>Treadmill Incline Walk: 30 min</li>
         </ul>
-        <h3>Workout (45 min)</h3>
+        <h3>Core Workout (15-20 min)</h3>
         <ul>
-            <li>DB Woodchoppers: 15 lbs, 3x12</li>
-            <li>DB Side Bends: 20 lbs, 3x15</li>
-            <li>DB Plank Rows: 15 lbs, 3x10</li>
-            <li>DB Weighted Sit-Ups: 10 lbs, 3x12</li>
+            <li>KB Russian Twists: 15 lbs, 3x12</li>
+            <li>DB Side Plank Hip Dips: 10 lbs, 3x10</li>
+            <li>KB Farmers Carry: 20 lbs each, 3x30s</li>
+            <li>Hollow Body Hold: Bodyweight, 3x45s</li>
+            <li>Bicycle Crunches: Bodyweight, 3x20</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="showWorkout('Saturday')">◄ Back</button>
@@ -389,20 +411,22 @@
         </div>
     </div>
 
-    <!-- Alternate Workouts (More Variations) -->
+    <!-- Alternate Workouts -->
     <div class="workout-popup" id="Alt1">
         <span class="close-btn" onclick="closePopup('Alt1')">X</span>
-        <h2>Chest & Triceps (Alt)</h2>
+        <h2>Full Body HIIT (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
             <li>Arm Circles: 2x20</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Decline Press: 20 lbs, 4x10</li>
-            <li>DB Tricep Overhead: 15 lbs, 4x12</li>
-            <li>DB Chest Flys: 15 lbs, 4x10</li>
-            <li>DB Tricep Pushdowns (w/ band): 4x12</li>
+            <li>KB Windmills: 15 lbs, 4x10</li>
+            <li>DB Arnold Press: 15 lbs each, 4x10</li>
+            <li>DB Floor Press: 20 lbs each, 4x12</li>
+            <li>KB Single-Leg RDL: 20 lbs, 4x10</li>
+            <li>Jump Rope: 4x60s</li>
+            <li>DB Hammer Curls: 15 lbs each, 4x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt1')">◄ Back</button>
@@ -412,17 +436,19 @@
     </div>
     <div class="workout-popup" id="Alt2">
         <span class="close-btn" onclick="closePopup('Alt2')">X</span>
-        <h2>Back & Biceps (Alt)</h2>
+        <h2>Lower Body (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Dead Hangs: 3x20 sec</li>
+            <li>Leg Swings: 2x15</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Underhand Rows: 25 lbs, 4x10</li>
-            <li>DB Hammer Curls: 15 lbs, 4x12</li>
-            <li>DB Face Pulls: 10 lbs, 4x12</li>
-            <li>DB Chin-Up Holds (w/ bar): 4x15 sec</li>
+            <li>DB Suitcase Deadlifts: 25 lbs each, 4x10</li>
+            <li>KB Box Squats: 20 lbs, 4x12</li>
+            <li>DB Curtsy Lunges: 15 lbs each, 4x10</li>
+            <li>DB Reverse Flys: 10 lbs each, 4x12</li>
+            <li>KB Swings: 20 lbs, 4x12</li>
+            <li>DB Step-Back Lunges: 20 lbs each, 4x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt2')">◄ Back</button>
@@ -432,17 +458,19 @@
     </div>
     <div class="workout-popup" id="Alt3">
         <span class="close-btn" onclick="closePopup('Alt3')">X</span>
-        <h2>Legs (Alt 1)</h2>
+        <h2>Full Body Strength (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Leg Swings: 2x15</li>
+            <li>High Knees: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Front Squats: 25 lbs, 4x10</li>
-            <li>DB Single-Leg RDLs: 20 lbs each, 4x10</li>
-            <li>DB Lateral Lunges: 15 lbs each, 4x12</li>
-            <li>DB Wall Sits (w/ weight): 20 lbs, 4x30 sec</li>
+            <li>DB Z Press: 15 lbs each, 4x10</li>
+            <li>KB Clean & Press: 20 lbs, 4x10</li>
+            <li>DB Goblet Squats: 25 lbs, 4x12</li>
+            <li>DB Bent-Over Rows: 20 lbs each, 4x10</li>
+            <li>KB Plank Drags: 15 lbs, 4x10</li>
+            <li>DB Hanging Knee Raises: 10 lbs, 4x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt3')">◄ Back</button>
@@ -452,17 +480,19 @@
     </div>
     <div class="workout-popup" id="Alt4">
         <span class="close-btn" onclick="closePopup('Alt4')">X</span>
-        <h2>Shoulders (Alt)</h2>
+        <h2>HIIT Circuit (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Arm Swings: 2x20</li>
+            <li>Jump Rope: 3x1 min</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Pike Push-Ups: 15 lbs, 4x10</li>
-            <li>DB Front Raises: 10 lbs, 4x12</li>
-            <li>DB Y-Raises: 8 lbs, 4x12</li>
-            <li>DB Shoulder Circles: 10 lbs, 4x15</li>
+            <li>DB Incline Press: 20 lbs each, 4x12</li>
+            <li>KB Snatch: 15 lbs, 4x10</li>
+            <li>DB Thrusters: 15 lbs each, 4x10</li>
+            <li>Jump Squats: 10 lbs, 4x12</li>
+            <li>DB Floor Flys: 15 lbs each, 4x10</li>
+            <li>Plank Rows: 15 lbs each, 4x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt4')">◄ Back</button>
@@ -472,17 +502,19 @@
     </div>
     <div class="workout-popup" id="Alt5">
         <span class="close-btn" onclick="closePopup('Alt5')">X</span>
-        <h2>Legs (Alt 2)</h2>
+        <h2>Lower Body (Alt 2)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
-            <li>Butt Kicks: 3x30 sec</li>
+            <li>Walking Lunges: 2x10</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Step-Back Lunges: 20 lbs each, 4x10</li>
-            <li>DB Glute Bridges: 30 lbs, 4x12</li>
-            <li>DB Curtsy Lunges: 15 lbs each, 4x10</li>
-            <li>DB Donkey Kicks (w/ weight): 10 lbs, 4x12</li>
+            <li>DB Bulgarian Split Squats: 20 lbs each, 4x10</li>
+            <li>KB Sumo Deadlifts: 30 lbs, 4x12</li>
+            <li>DB Step-Ups: 15 lbs each, 4x10</li>
+            <li>DB Hip Thrusts: 25 lbs, 4x12</li>
+            <li>KB Goblet Cossack Squat: 20 lbs, 4x10</li>
+            <li>Jump Lunges: Bodyweight, 4x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt5')">◄ Back</button>
@@ -499,10 +531,12 @@
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Clean & Press: 20 lbs, 4x10</li>
-            <li>DB Deadlift to Row: 25 lbs, 4x10</li>
-            <li>DB Squat to Overhead: 15 lbs, 4x12</li>
-            <li>DB Burpee Press: 10 lbs, 4x8</li>
+            <li>KB Turkish Get-Ups: 15 lbs, 4x8</li>
+            <li>DB Lateral Lunges: 15 lbs each, 4x12</li>
+            <li>DB Chest Press: 20 lbs each, 4x10</li>
+            <li>KB Swings: 20 lbs, 4x12</li>
+            <li>DB Hammer Curls: 15 lbs each, 4x12</li>
+            <li>Plank to Push-Ups: Bodyweight, 4x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt6')">◄ Back</button>
@@ -512,17 +546,19 @@
     </div>
     <div class="workout-popup" id="Alt7">
         <span class="close-btn" onclick="closePopup('Alt7')">X</span>
-        <h2>Core (Alt)</h2>
+        <h2>Core Recovery (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
             <li>Plank Hold: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Russian Twists: 15 lbs, 4x15</li>
-            <li>DB Leg Raises: 10 lbs, 4x12</li>
-            <li>DB Bicycle Crunches: 10 lbs, 4x20</li>
-            <li>DB Side Plank Rotations: 12 lbs, 4x10</li>
+            <li>KB Russian Twists: 15 lbs, 4x12</li>
+            <li>DB Side Plank Hip Dips: 10 lbs, 4x10</li>
+            <li>KB Farmers Carry: 20 lbs each, 4x30s</li>
+            <li>Hollow Body Hold: Bodyweight, 4x45s</li>
+            <li>Bicycle Crunches: Bodyweight, 4x20</li>
+            <li>DB Hanging Knee Raises: 10 lbs, 4x12</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt7')">◄ Back</button>
@@ -532,17 +568,19 @@
     </div>
     <div class="workout-popup" id="Alt8">
         <span class="close-btn" onclick="closePopup('Alt8')">X</span>
-        <h2>Chest & Triceps (Alt 2)</h2>
+        <h2>Full Body HIIT (Alt 2)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
             <li>Jumping Jacks: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Wide Press: 25 lbs, 4x10</li>
-            <li>DB Tricep Kickbacks: 12 lbs, 4x12</li>
-            <li>DB Pullover: 20 lbs, 4x10</li>
-            <li>DB Bench Dips: 15 lbs, 4x12</li>
+            <li>DB Wide Press: 20 lbs each, 4x10</li>
+            <li>KB Snatch: 15 lbs, 4x10</li>
+            <li>DB Thrusters: 15 lbs each, 4x10</li>
+            <li>Jump Squats: 10 lbs, 4x12</li>
+            <li>DB Reverse Flys: 10 lbs each, 4x12</li>
+            <li>KB Plank Drags: 15 lbs, 4x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt8')">◄ Back</button>
@@ -552,17 +590,19 @@
     </div>
     <div class="workout-popup" id="Alt9">
         <span class="close-btn" onclick="closePopup('Alt9')">X</span>
-        <h2>Back & Biceps (Alt 2)</h2>
+        <h2>Upper Body Strength (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
             <li>Arm Swings: 2x20</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Pendlay Rows: 25 lbs, 4x10</li>
-            <li>DB Preacher Curls: 15 lbs, 4x12</li>
-            <li>DB Rear Delt Flys: 10 lbs, 4x12</li>
-            <li>DB Drag Curls: 12 lbs, 4x10</li>
+            <li>DB Arnold Press: 15 lbs each, 4x10</li>
+            <li>KB Clean & Press: 20 lbs, 4x10</li>
+            <li>DB Floor Press: 20 lbs each, 4x12</li>
+            <li>DB Bent-Over Rows: 20 lbs each, 4x10</li>
+            <li>DB Hammer Curls: 15 lbs each, 4x12</li>
+            <li>Plank Rows: 15 lbs each, 4x10</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt9')">◄ Back</button>
@@ -572,17 +612,19 @@
     </div>
     <div class="workout-popup" id="Alt10">
         <span class="close-btn" onclick="closePopup('Alt10')">X</span>
-        <h2>Full Body (Alt 2)</h2>
+        <h2>Full Body Power (Alt)</h2>
         <h3>Warmup (5-10 min)</h3>
         <ul>
             <li>High Knees: 3x30 sec</li>
         </ul>
         <h3>Workout (45 min)</h3>
         <ul>
-            <li>DB Snatch: 20 lbs, 4x10</li>
-            <li>DB Single-Arm Press: 15 lbs, 4x12</li>
-            <li>DB Squat Jumps: 10 lbs, 4x10</li>
-            <li>DB Push-Up to Row: 15 lbs, 4x8</li>
+            <li>KB Swings: 20 lbs, 4x12</li>
+            <li>DB Thrusters: 15 lbs each, 4x10</li>
+            <li>DB Suitcase Deadlifts: 25 lbs each, 4x10</li>
+            <li>KB Turkish Get-Ups: 15 lbs, 4x8</li>
+            <li>DB Lateral Lunges: 15 lbs each, 4x12</li>
+            <li>Jump Rope: 4x60s</li>
         </ul>
         <div class="nav-container">
             <button class="nav-btn" onclick="closePopup('Alt10')">◄ Back</button>
@@ -744,12 +786,12 @@
 
         const workoutProgression = {
             'Monday': ['Monday', 'Monday', 'Alt1', 'Alt8'],
-            'Tuesday': ['Tuesday', 'Tuesday', 'Alt2', 'Alt9'],
-            'Wednesday': ['Wednesday', 'Wednesday', 'Alt3', 'Alt5'],
-            'Thursday': ['Thursday', 'Thursday', 'Alt4', 'Alt4'],
-            'Friday': ['Friday', 'Friday', 'Alt5', 'Alt5'],
-            'Saturday': ['Saturday', 'Saturday', 'Alt6', 'Alt10'],
-            'Sunday': ['Sunday', 'Sunday', 'Alt7', 'Alt7']
+            'Tuesday': ['Tuesday', 'Tuesday', 'Alt3', 'Alt4'],
+            'Wednesday': ['Wednesday', 'Wednesday', 'Alt2', 'Alt9'],
+            'Thursday': ['Thursday', 'Thursday', 'Alt6', 'Alt10'],
+            'Friday': ['Friday', 'Friday', 'Alt5', 'Alt2'],
+            'Saturday': ['Saturday', 'Saturday', 'Alt4', 'Alt8'],
+            'Sunday': ['Sunday', 'Sunday', 'Alt7', 'Alt3']
         };
 
         let skipCount = {};
@@ -763,23 +805,13 @@
         }
 
         const allWorkouts = [
-            { warmup: '<li>Jumping Jacks: 3x30 sec</li>', workout: '<li>DB Incline Press: 20 lbs, 3x12</li><li>DB Floor Flys: 15 lbs, 3x10</li><li>Overhead DB Tricep Ext: 20 lbs, 3x10</li><li>DB Close Grip Press: 25 lbs, 3x11</li><li>DB Tricep Dips (on bench): 15 lbs, 3x12</li>' },
-            { warmup: '<li>Arm Swings: 2x20</li>', workout: '<li>DB Renegade Rows: 20 lbs, 3x10</li><li>DB Reverse Flys: 12 lbs, 3x12</li><li>DB Concentration Curls: 15 lbs, 3x10</li><li>DB Single Arm Pulls: 25 lbs, 3x12</li><li>DB Zottman Curls: 12 lbs, 3x8</li>' },
-            { warmup: '<li>High Knees: 3x30 sec</li>', workout: '<li>DB Reverse Lunges: 20 lbs each, 3x10</li><li>DB Sumo Deadlifts: 30 lbs, 3x12</li><li>DB Side Step-Ups: 15 lbs each, 3x10</li><li>DB Bulgarian Split Squats: 20 lbs each, 3x8</li>' },
-            { warmup: '<li>Shoulder Rolls: 2x15</li>', workout: '<li>DB Military Press: 15 lbs, 3x10</li><li>DB Rear Delt Raises: 10 lbs, 3x12</li><li>DB Lateral Raises: 10 lbs, 3x10</li><li>DB Face Pulls (w/ band): 3x12</li><li>DB Shrugs: 25 lbs, 3x15</li>' },
-            { warmup: '<li>Walking Lunges: 2x10</li>', workout: '<li>DB Hip Thrusts: 30 lbs, 3x12</li><li>DB Romanian Deadlifts: 25 lbs each, 3x10</li><li>DB Goblet Squats: 25 lbs, 3x10</li><li>DB Calf Raises: 20 lbs each, 3x15</li>' },
-            { warmup: '<li>Jump Rope (or mimic): 3x1 min</li>', workout: '<li>DB Thrusters: 20 lbs, 3x10</li><li>DB Bent Over Rows: 25 lbs, 3x12</li><li>DB Walking Lunges: 15 lbs each, 3x10</li><li>DB Arnold Press: 12 lbs, 3x10</li>' },
-            { warmup: '<li>Plank Hold: 3x30 sec</li>', workout: '<li>DB Woodchoppers: 15 lbs, 3x12</li><li>DB Side Bends: 20 lbs, 3x15</li><li>DB Plank Rows: 15 lbs, 3x10</li><li>DB Weighted Sit-Ups: 10 lbs, 3x12</li>' },
-            { warmup: '<li>Arm Circles: 2x20</li>', workout: '<li>DB Decline Press: 20 lbs, 4x10</li><li>DB Tricep Overhead: 15 lbs, 4x12</li><li>DB Chest Flys: 15 lbs, 4x10</li><li>DB Tricep Pushdowns (w/ band): 4x12</li>' },
-            { warmup: '<li>Dead Hangs: 3x20 sec</li>', workout: '<li>DB Underhand Rows: 25 lbs, 4x10</li><li>DB Hammer Curls: 15 lbs, 4x12</li><li>DB Face Pulls: 10 lbs, 4x12</li><li>DB Chin-Up Holds (w/ bar): 4x15 sec</li>' },
-            { warmup: '<li>Leg Swings: 2x15</li>', workout: '<li>DB Front Squats: 25 lbs, 4x10</li><li>DB Single-Leg RDLs: 20 lbs each, 4x10</li><li>DB Lateral Lunges: 15 lbs each, 4x12</li><li>DB Wall Sits (w/ weight): 20 lbs, 4x30 sec</li>' },
-            { warmup: '<li>Arm Swings: 2x20</li>', workout: '<li>DB Pike Push-Ups: 15 lbs, 4x10</li><li>DB Front Raises: 10 lbs, 4x12</li><li>DB Y-Raises: 8 lbs, 4x12</li><li>DB Shoulder Circles: 10 lbs, 4x15</li>' },
-            { warmup: '<li>Butt Kicks: 3x30 sec</li>', workout: '<li>DB Step-Back Lunges: 20 lbs each, 4x10</li><li>DB Glute Bridges: 30 lbs, 4x12</li><li>DB Curtsy Lunges: 15 lbs each, 4x10</li><li>DB Donkey Kicks (w/ weight): 10 lbs, 4x12</li>' },
-            { warmup: '<li>Dynamic Stretch: 2 min</li>', workout: '<li>DB Clean & Press: 20 lbs, 4x10</li><li>DB Deadlift to Row: 25 lbs, 4x10</li><li>DB Squat to Overhead: 15 lbs, 4x12</li><li>DB Burpee Press: 10 lbs, 4x8</li>' },
-            { warmup: '<li>Plank Hold: 3x30 sec</li>', workout: '<li>DB Russian Twists: 15 lbs, 4x15</li><li>DB Leg Raises: 10 lbs, 4x12</li><li>DB Bicycle Crunches: 10 lbs, 4x20</li><li>DB Side Plank Rotations: 12 lbs, 4x10</li>' },
-            { warmup: '<li>Jumping Jacks: 3x30 sec</li>', workout: '<li>DB Wide Press: 25 lbs, 4x10</li><li>DB Tricep Kickbacks: 12 lbs, 4x12</li><li>DB Pullover: 20 lbs, 4x10</li><li>DB Bench Dips: 15 lbs, 4x12</li>' },
-            { warmup: '<li>Arm Swings: 2x20</li>', workout: '<li>DB Pendlay Rows: 25 lbs, 4x10</li><li>DB Preacher Curls: 15 lbs, 4x12</li><li>DB Rear Delt Flys: 10 lbs, 4x12</li><li>DB Drag Curls: 12 lbs, 4x10</li>' },
-            { warmup: '<li>High Knees: 3x30 sec</li>', workout: '<li>DB Snatch: 20 lbs, 4x10</li><li>DB Single-Arm Press: 15 lbs, 4x12</li><li>DB Squat Jumps: 10 lbs, 4x10</li><li>DB Push-Up to Row: 15 lbs, 4x8</li>' }
+            { day: 'Monday', warmup: '<li>Jumping Jacks: 3x30 sec</li>', workout: '<li>KB Swings: 20 lbs, 3x12</li><li>DB Thrusters: 15 lbs each, 3x10</li><li>Jump Squats: Bodyweight, 3x12</li><li>Plank Rows: 15 lbs each, 3x10</li><li>DB Shoulder Press: 15 lbs each, 3x10</li><li>Russian Twists: 10 lbs, 3x12</li>' },
+            { day: 'Tuesday', warmup: '<li>Jumping Jacks: 3x30 sec</li>', workout: '<li>Goblet Squats (KB): 25 lbs, 3x12</li><li>DB Romanian Deadlifts: 20 lbs each, 3x10</li><li>DB Shoulder Press: 15 lbs each, 3x10</li><li>KB Swings: 20 lbs, 3x12</li><li>DB Bent-Over Rows: 20 lbs each, 3x10</li><li>Plank Rows: 15 lbs each, 3x10</li>' },
+            { day: 'Wednesday', warmup: '<li>Arm Swings: 2x20</li>', workout: '<li>KB Snatch: 15 lbs, 3x10</li><li>DB Chest Press: 20 lbs each, 3x10</li><li>Jump Lunges: Bodyweight, 3x12</li><li>KB Deadlifts: 25 lbs, 3x10</li><li>DB Reverse Flys: 10 lbs each, 3x12</li><li>Plank to Push-Ups: Bodyweight, 3x10</li>' },
+            { day: 'Thursday', warmup: '<li>Arm Swings: 2x20</li>', workout: '<li>KB Deadlifts: 25 lbs, 3x10</li><li>DB Thrusters: 15 lbs each, 3x10</li><li>KB Snatch: 15 lbs, 3x10</li><li>Jump Squats: 10 lbs, 3x12</li><li>Russian Twists: 10 lbs, 3x12</li><li>Plank to Push-Ups: Bodyweight, 3x10</li>' },
+            { day: 'Friday', warmup: '<li>High Knees: 3x30 sec</li>', workout: '<li>Bulgarian Split Squats: 20 lbs each, 3x10</li><li>KB Sumo Deadlifts: 30 lbs, 3x12</li><li>DB Step-Ups: 15 lbs each, 3x10</li><li>DB Hip Thrusts: 25 lbs, 3x12</li><li>KB Goblet Cossack Squat: 20 lbs, 3x10</li><li>Jump Lunges: Bodyweight, 3x12</li>' },
+            { day: 'Saturday', warmup: '<li>Jump Rope: 3x1 min</li>', workout: '<li>KB Clean & Press: 20 lbs, 3x10</li><li>DB Lateral Lunges: 15 lbs each, 3x12</li><li>DB Chest Press: 20 lbs each, 3x10</li><li>KB Turkish Get-Ups: 15 lbs, 3x8</li><li>DB Hanging Knee Raises: 10 lbs, 3x12</li><li>KB Plank Drags: 15 lbs, 3x10</li>' },
+            { day: 'Sunday', warmup: '<li>Plank Hold: 3x30 sec</li>', workout: '<li>KB Russian Twists: 15 lbs, 3x12</li><li>DB Side Plank Hip Dips: 10 lbs, 3x10</li><li>KB Farmers Carry: 20 lbs each, 3x30s</li><li>Hollow Body Hold: Bodyweight, 3x45s</li><li>Bicycle Crunches: Bodyweight, 3x20</li>' }
         ];
 
         let currentAllIndex = 0;
@@ -791,23 +823,21 @@
             currentAllIndex = index;
             const workout = allWorkouts[index];
             document.getElementById('all-workout-content').innerHTML = `
-                <h3>Warmup (5-10 min)</h3><ul>${workout.warmup}</ul>
-                <h3>Workout (45 min)</h3><ul>${workout.workout}</ul>
+                <h3>${workout.day}</h3>
+                <h4>Warmup</h4>
+                <ul>${workout.warmup}</ul>
+                <h4>Workout</h4>
+                <ul>${workout.workout}</ul>
             `;
             document.getElementById('all-workouts').style.display = 'block';
         }
 
         const quotes = [
-            "¡Raeanne, you’re shaking up the bar and the weights—nicotine-free badass!",
-            "One year clean, less booze, all power—keep pouring strength, queen!",
-            "From shaker to barbell, you’re a consistency legend—crush it!",
-            "No vape, no shots, just gains—Raeanne, you’re unstoppable!",
-            "Bartending boss dropping habits and lifting heavy—own it!",
-            "Mix it, lift it, win it—Raeanne, you’re a sober strength titan!",
-            "A year of freedom, a lifetime of power—keep the streak alive!",
-            "Pour less, press more—Raeanne, you’re rewriting the recipe for strong!",
-            "Nicotine’s out, muscle’s in—shake up your limits, bartender!",
-            "¡Raeanne, you’re the cocktail of grit—one year down, forever to go!"
+            "¡You’re a barbell badass—keep shaking it!",
+            "Sweat now, shine later—Raeanne’s way!",
+            "No nicotine, just gains—crush it!",
+            "Lift heavy, live light—you’ve got this!",
+            "Every rep is a step to your throne, Queen!"
         ];
 
         function showMotivation() {
@@ -816,6 +846,10 @@
             document.getElementById('quote').innerText = randomQuote;
             document.getElementById('motivate').style.display = 'block';
         }
+
+        // Initialize page
+        document.getElementById('welcome').style.display = 'block';
+        document.getElementById('main').style.display = 'none';
     </script>
 </body>
 </html>
